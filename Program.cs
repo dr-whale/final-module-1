@@ -12,3 +12,8 @@
     }
     return shorts;
 }
+
+string[] array = { "Sun", "Rain", "Cloud", "Day", "Hi", "End", "Start" };
+string[] newArray = ShortStrings(array);
+
+for (int i = 0; i < newArray.Length; i++) Console.Write(newArray[i] + " ");
